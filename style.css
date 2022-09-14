@@ -1,4 +1,21 @@
-header {
-  background-color: #000;
-  height: auto;
+@media (max-width: 576px) {
+  header {
+    background-color: #000;
+    height: auto;
+  }
+  .main-header {
+    padding: 20px 0px;
+  }
+  .top-bar-logo ul li {
+    list-style-type: none;
+  }
+  .top-bar-logo ul li a {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+  .bxl-sketch {
+    font-size: 2em;
+    color: #fff;
+  }
 }/*# sourceMappingURL=style.css.map */
