@@ -38,4 +38,23 @@
   .second-link:hover {
     text-decoration: underline;
   }
+  button {
+    border: none;
+    background-color: black;
+    cursor: pointer;
+  }
+  .bx-search-alt, .bx-menu {
+    color: #fff;
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+  }
+  .bx-search-alt {
+    transform: scale(1);
+    transition: transform 0.3s;
+  }
+  .bx-search-alt:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s;
+  }
 }/*# sourceMappingURL=style.css.map */
