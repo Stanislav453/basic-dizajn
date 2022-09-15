@@ -1,5 +1,572 @@
 @import "scss/variables";
 
+   /****** HEADER ***********/
+
+   header {
+    background-color: $second-color;
+    height: auto;
+    letter-spacing: -2px;
+}
+
+.main-header {
+    padding-top: 5px;
+    line-height: 28px;
+}
+
+.top-bar-logo ul li {
+    list-style-type: none;
+}
+
+.top-bar-logo ul li a {
+    color: $main-color;
+    font-size: 2em;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.bxl-sketch {
+    font-size: 3em;
+    color: $main-color;
+   
+}
+
+.first-link {
+    opacity: 1;
+    transition: opacity .3s;
+    cursor: pointer;
+
+         &:hover {
+        opacity: 0.5;
+        transition: opacity .3s;
+
+        }
+}
+
+.first-link a {
+    color: red;
+}
+
+
+.second-link {
+
+    border-left: 2px solid $main-color;
+    margin-left: 8px;
+    padding-left: 8px;
+
+
+        &:hover {
+        text-decoration: underline;
+        }
+
+}
+
+button {
+    border: none;
+    background-color: black;
+    cursor: pointer;
+}
+
+.bx-search-alt, .bx-menu  {
+    color: $main-color;
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+}
+
+.bx-search-alt {
+    transform: scale(1);
+    transition: transform .3s;
+
+         &:hover {
+
+        transform: scale(1.2);
+        transition: transform .3s;
+        
+        }
+}
+
+
+/**** SECTION HOW CAN HELP ? ***********/
+
+.section-help {
+    flex-direction: column;
+    background-color: $headerColor;
+    height: auto;
+    padding: 115px 15px;
+    line-height: 28px;
+    letter-spacing: -4px;
+}
+
+.section-h2 {
+    font-weight: 600;
+    font-size: 3em;
+    padding-bottom: 50px;
+}
+
+.section-input {
+   position: relative;
+   padding: 1em 1em;
+   height: auto;
+   border: 1px solid $second-color;
+   border-radius: 10px;
+
+   font-size: 1.5em;
+   color: #000 !important;
+
+   outline: none;
+
+    &:focus {
+     border: 1px solid blue;
+
+    }
+
+    &::placeholder {
+        color: $second-color;
+        opacity: 1;
+    }
+}
+
+.bx-right-arrow-alt {
+    position: absolute;
+    right: 28px;
+    bottom: 126px;
+    font-size: 55px;
+    font-weight: 100 !important;
+    border: 1px solid $main-color;
+
+}
+
+
+
+@media (max-width: 1200px){
+
+    /****** HEADER ***********/
+
+    header {
+        background-color: $second-color;
+        height: auto;
+        letter-spacing: -2px;
+    }
+    
+    .main-header {
+        padding-top: 5px;
+        line-height: 28px;
+    }
+
+    .top-bar-logo ul li {
+        list-style-type: none;
+    }
+    
+    .top-bar-logo ul li a {
+        color: $main-color;
+        font-size: 2em;
+        font-weight: 400;
+        text-decoration: none;
+
+    }
+
+    .bxl-sketch {
+        font-size: 3em;
+        color: $main-color;
+       
+    }
+
+    .first-link {
+        opacity: 1;
+        transition: opacity .3s;
+        cursor: pointer;
+
+             &:hover {
+            opacity: 0.5;
+            transition: opacity .3s;
+
+            }
+    }
+
+    .first-link a {
+        color: red;
+    }
+
+
+    .second-link {
+
+        border-left: 2px solid $main-color;
+        margin-left: 8px;
+        padding-left: 8px;
+
+    
+            &:hover {
+            text-decoration: underline;
+            }
+
+    }
+
+    button {
+        border: none;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .bx-search-alt, .bx-menu  {
+        color: $main-color;
+        font-size: 3em;
+        padding: 0;
+        margin: 0;
+    }
+
+    .bx-search-alt {
+        transform: scale(1);
+        transition: transform .3s;
+
+             &:hover {
+    
+            transform: scale(1.2);
+            transition: transform .3s;
+            
+            }
+    }
+
+
+    /**** SECTION HOW CAN HELP ? ***********/
+
+    .section-help {
+        flex-direction: column;
+        background-color: $headerColor;
+        height: auto;
+        padding: 115px 15px;
+        line-height: 28px;
+        letter-spacing: -4px;
+    }
+
+    .section-h2 {
+        font-weight: 600;
+        font-size: 3em;
+        padding-bottom: 50px;
+    }
+
+    .section-input {
+       position: relative;
+       padding: 1em 1em;
+       height: auto;
+       border: 1px solid $second-color;
+       border-radius: 10px;
+
+       font-size: 1.5em;
+       color: #000 !important;
+
+       outline: none;
+
+        &:focus {
+         border: 1px solid blue;
+
+        }
+
+        &::placeholder {
+            color: $second-color;
+            opacity: 1;
+        }
+    }
+
+    .bx-right-arrow-alt {
+        position: absolute;
+        right: 28px;
+        bottom: 126px;
+        font-size: 55px;
+        font-weight: 100 !important;
+        border: 1px solid $main-color;
+
+    }
+
+}
+
+
+
+@media (max-width: 992px){
+
+    /****** HEADER ***********/
+
+    header {
+        background-color: $second-color;
+        height: auto;
+        letter-spacing: -2px;
+    }
+    
+    .main-header {
+        padding-top: 5px;
+        line-height: 28px;
+    }
+
+    .top-bar-logo ul li {
+        list-style-type: none;
+    }
+    
+    .top-bar-logo ul li a {
+        color: $main-color;
+        font-size: 2em;
+        font-weight: 400;
+        text-decoration: none;
+
+    }
+
+    .bxl-sketch {
+        font-size: 3em;
+        color: $main-color;
+       
+    }
+
+    .first-link {
+        opacity: 1;
+        transition: opacity .3s;
+        cursor: pointer;
+
+             &:hover {
+            opacity: 0.5;
+            transition: opacity .3s;
+
+            }
+    }
+
+    .first-link a {
+        color: red;
+    }
+
+
+    .second-link {
+
+        border-left: 2px solid $main-color;
+        margin-left: 8px;
+        padding-left: 8px;
+
+    
+            &:hover {
+            text-decoration: underline;
+            }
+
+    }
+
+    button {
+        border: none;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .bx-search-alt, .bx-menu  {
+        color: $main-color;
+        font-size: 3em;
+        padding: 0;
+        margin: 0;
+    }
+
+    .bx-search-alt {
+        transform: scale(1);
+        transition: transform .3s;
+
+             &:hover {
+    
+            transform: scale(1.2);
+            transition: transform .3s;
+            
+            }
+    }
+
+
+    /**** SECTION HOW CAN HELP ? ***********/
+
+    .section-help {
+        flex-direction: column;
+        background-color: $headerColor;
+        height: auto;
+        padding: 115px 15px;
+        line-height: 28px;
+        letter-spacing: -4px;
+    }
+
+    .section-h2 {
+        font-weight: 600;
+        font-size: 3em;
+        padding-bottom: 50px;
+    }
+
+    .section-input {
+       position: relative;
+       padding: 1em 1em;
+       height: auto;
+       border: 1px solid $second-color;
+       border-radius: 10px;
+
+       font-size: 1.5em;
+       color: #000 !important;
+
+       outline: none;
+
+        &:focus {
+         border: 1px solid blue;
+
+        }
+
+        &::placeholder {
+            color: $second-color;
+            opacity: 1;
+        }
+    }
+
+    .bx-right-arrow-alt {
+        position: absolute;
+        right: 28px;
+        bottom: 126px;
+        font-size: 55px;
+        font-weight: 100 !important;
+        border: 1px solid $main-color;
+
+    }
+
+}
+
+
+
+@media (max-width: 768px){
+
+    /****** HEADER ***********/
+
+    header {
+        background-color: $second-color;
+        height: auto;
+        letter-spacing: -2px;
+    }
+    
+    .main-header {
+        padding-top: 5px;
+        line-height: 28px;
+    }
+
+    .top-bar-logo ul li {
+        list-style-type: none;
+    }
+    
+    .top-bar-logo ul li a {
+        color: $main-color;
+        font-size: 2em;
+        font-weight: 400;
+        text-decoration: none;
+
+    }
+
+    .bxl-sketch {
+        font-size: 3em;
+        color: $main-color;
+       
+    }
+
+    .first-link {
+        opacity: 1;
+        transition: opacity .3s;
+        cursor: pointer;
+
+             &:hover {
+            opacity: 0.5;
+            transition: opacity .3s;
+
+            }
+    }
+
+    .first-link a {
+        color: red;
+    }
+
+
+    .second-link {
+
+        border-left: 2px solid $main-color;
+        margin-left: 8px;
+        padding-left: 8px;
+
+    
+            &:hover {
+            text-decoration: underline;
+            }
+
+    }
+
+    button {
+        border: none;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    .bx-search-alt, .bx-menu  {
+        color: $main-color;
+        font-size: 3em;
+        padding: 0;
+        margin: 0;
+    }
+
+    .bx-search-alt {
+        transform: scale(1);
+        transition: transform .3s;
+
+             &:hover {
+    
+            transform: scale(1.2);
+            transition: transform .3s;
+            
+            }
+    }
+
+
+    /**** SECTION HOW CAN HELP ? ***********/
+
+    .section-help {
+        flex-direction: column;
+        background-color: $headerColor;
+        height: auto;
+        padding: 115px 15px;
+        line-height: 28px;
+        letter-spacing: -4px;
+    }
+
+    .section-h2 {
+        font-weight: 600;
+        font-size: 3em;
+        padding-bottom: 50px;
+    }
+
+    .section-input {
+       position: relative;
+       padding: 1em 1em;
+       height: auto;
+       border: 1px solid $second-color;
+       border-radius: 10px;
+
+       font-size: 1.5em;
+       color: #000 !important;
+
+       outline: none;
+
+        &:focus {
+         border: 1px solid blue;
+
+        }
+
+        &::placeholder {
+            color: $second-color;
+            opacity: 1;
+        }
+    }
+
+    .bx-right-arrow-alt {
+        position: absolute;
+        right: 28px;
+        bottom: 126px;
+        font-size: 55px;
+        font-weight: 100 !important;
+        border: 1px solid $main-color;
+
+    }
+
+}
+
+
 
 @media (max-width: 576px){
 
