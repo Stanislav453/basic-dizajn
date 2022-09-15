@@ -89,4 +89,25 @@
 
     /**** SECTION HOW CAN HELP ? ***********/
 
+    .section-help {
+        flex-direction: column;
+        background-color: $headerColor;
+        height: auto;
+        padding: 115px 15px;
+        line-height: 28px;
+    }
+
+    .section-h2 {
+        font-weight: 600;
+        font-size: 3em;
+        padding-bottom: 50px;
+    }
+
+    .section-input {
+       padding: 1em 1em;
+       height: auto;
+       border: 1px solid $second-color;
+       border-radius: 10px;
+    }
+
 }
