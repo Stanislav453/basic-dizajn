@@ -3,6 +3,7 @@
   header {
     background-color: #000;
     height: auto;
+    letter-spacing: -2px;
   }
   .main-header {
     padding-top: 5px;
@@ -67,6 +68,7 @@
     height: auto;
     padding: 115px 15px;
     line-height: 28px;
+    letter-spacing: -4px;
   }
   .section-h2 {
     font-weight: 600;
@@ -74,9 +76,23 @@
     padding-bottom: 50px;
   }
   .section-input {
+    position: relative;
     padding: 1em 1em;
     height: auto;
     border: 1px solid #000;
     border-radius: 10px;
+    font-size: 1.5em;
+    outline: none;
+  }
+  .section-input:focus {
+    border: 1px solid blue;
+  }
+  .bx-right-arrow-alt {
+    position: absolute;
+    right: 28px;
+    bottom: 126px;
+    font-size: 55px;
+    font-weight: 100 !important;
+    border: 1px solid #fff;
   }
 }/*# sourceMappingURL=style.css.map */
