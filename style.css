@@ -82,10 +82,23 @@
     border: 1px solid #000;
     border-radius: 10px;
     font-size: 1.5em;
+    color: #000 !important;
     outline: none;
   }
   .section-input:focus {
     border: 1px solid blue;
+  }
+  .section-input::-moz-placeholder {
+    color: #000;
+    opacity: 1;
+  }
+  .section-input:-ms-input-placeholder {
+    color: #000;
+    opacity: 1;
+  }
+  .section-input::placeholder {
+    color: #000;
+    opacity: 1;
   }
   .bx-right-arrow-alt {
     position: absolute;
