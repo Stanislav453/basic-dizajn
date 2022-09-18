@@ -9,7 +9,7 @@
 }
 
 .main-header {
-    padding:  25px 94px;
+    padding: 25px 90px;
     line-height: 28px;
 }
 
@@ -62,9 +62,17 @@
 }
 
 button {
-    border: none;
+    border: 1px solid $main-color;
+    padding: 18px 20px;
+    font-size: 2em !important;
     background-color: black;
+    color: $main-color;
     cursor: pointer;
+    border-radius: 15px !important;
+}
+
+.text-button {
+    display: block;
 }
 
 .bx-search-alt, .bx-menu  {
@@ -72,6 +80,7 @@ button {
     font-size: 3em;
     padding: 0;
     margin: 0;
+    display: none;
 }
 
 .bx-search-alt {
@@ -150,8 +159,12 @@ button {
     }
     
     .main-header {
-        padding-top: 5px;
+        padding: 5px 20px;
         line-height: 28px;
+    }
+    
+    .section-h2 {
+        font-size: 5em;
     }
 
     .top-bar-logo ul li {
@@ -205,7 +218,12 @@ button {
     button {
         border: none;
         background-color: black;
+        font-size: 1.2em !important;
         cursor: pointer;
+    }
+
+    .text-button {
+        display: none;
     }
 
     .bx-search-alt, .bx-menu  {
@@ -213,6 +231,7 @@ button {
         font-size: 3em;
         padding: 0;
         margin: 0;
+        display: block;
     }
 
     .bx-search-alt {
@@ -293,8 +312,12 @@ button {
     }
     
     .main-header {
-        padding-top: 5px;
+        padding: 5px 20px;
         line-height: 28px;
+    }
+
+    .section-h2 {
+        font-size: 5em;
     }
 
     .top-bar-logo ul li {
@@ -356,6 +379,7 @@ button {
         font-size: 3em;
         padding: 0;
         margin: 0;
+        display: block;
     }
 
     .bx-search-alt {
@@ -436,8 +460,12 @@ button {
     }
     
     .main-header {
-        padding-top: 5px;
+        padding: 5px 20px;
         line-height: 28px;
+    }
+
+    .section-h2 {
+        font-size: 5em;
     }
 
     .top-bar-logo ul li {
@@ -499,6 +527,7 @@ button {
         font-size: 3em;
         padding: 0;
         margin: 0;
+        display: block;
     }
 
     .bx-search-alt {
@@ -527,7 +556,7 @@ button {
 
     .section-h2 {
         font-weight: 600;
-        font-size: 3em;
+        font-size: 5em;
         padding-bottom: 50px;
     }
 
@@ -579,7 +608,7 @@ button {
     }
     
     .main-header {
-        padding-top: 5px;
+        padding: 5px 0px;
         line-height: 28px;
     }
 
@@ -589,14 +618,14 @@ button {
     
     .top-bar-logo ul li a {
         color: $main-color;
-        font-size: 2em;
-        font-weight: 400;
+        font-size: 1.9em;
+        font-weight: 600;
         text-decoration: none;
 
     }
 
     .bxl-sketch {
-        font-size: 3em;
+        font-size: 2.5em;
         color: $main-color;
        
     }
@@ -634,6 +663,8 @@ button {
     button {
         border: none;
         background-color: black;
+        font-size: .8em !important;
+        padding: 5px 5px;
         cursor: pointer;
     }
 
@@ -642,6 +673,7 @@ button {
         font-size: 3em;
         padding: 0;
         margin: 0;
+        display: block;
     }
 
     .bx-search-alt {
@@ -669,9 +701,7 @@ button {
     }
 
     .section-h2 {
-        font-weight: 600;
-        font-size: 3em;
-        padding-bottom: 50px;
+        font-size: 3.5em;
     }
 
     .section-input {
