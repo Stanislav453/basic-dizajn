@@ -63,7 +63,7 @@
 
 button {
     border: 1px solid $main-color;
-    padding: 18px 20px;
+    padding: 18px 30px;
     font-size: 2em !important;
     background-color: black;
     color: $main-color;
@@ -73,6 +73,20 @@ button {
 
 .text-button {
     display: block;
+}
+
+.button-bar-right {
+    background-color: $button-color;
+    color: $main-color;
+    border: none;
+    margin-left: 20px;
+    transition: color, background-color .5s;
+
+    &:hover {
+        background-color: $main-color;
+        color: $second-color;
+        transition: color, background-color .5s;
+    }
 }
 
 .bx-search-alt, .bx-menu  {
