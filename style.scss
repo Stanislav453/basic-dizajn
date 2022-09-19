@@ -1,8 +1,5 @@
 @import "scss/variables";
 
-.col-12 {
-    flex: 0 0 30%!important;
-}
 
    /****** HEADER ***********/
 
@@ -113,6 +110,8 @@ button {
         }
 }
 
+/**** SECTION **************************************/
+
 section {
     background-color: $section-background;
     padding: 100px 15px;
@@ -132,7 +131,7 @@ section {
             border-radius: 5px;
             font-size: 1.3em;
             outline: none;
-            border: none;
+            border: 1px solid #000;
 
             &::placeholder {
                 opacity: 1;
@@ -149,6 +148,47 @@ section {
     }
 }
 
+/**** MAIN SECTION **************************************/
+
+.my-container {
+
+    .select-container {
+        margin: 100px;
+
+        .text-img-container {
+
+            .container-text {
+                margin-bottom: 100px;
+                max-width: 50%;
+
+                &:nth-of-type(odd) {
+                    padding-right: 5%;
+                }
+
+                h3 {
+                    font-weight: 700;
+                }
+                
+                p {
+                    font-size: 1.5em;
+                    
+                }
+
+                a {
+                    color: $button-color;
+                    font-size: 1.5em;
+                }
+
+                img {
+                    width: 90px;
+                    height: 90px;
+                    margin-right: 25px;
+                }
+
+            }
+        }
+    }
+}
 
 
 
@@ -597,6 +637,46 @@ section {
         }
     }
 
+ /** Conteiner-text *************/
+ .my-container {
+
+    .select-container {
+        margin: 100px;
+
+        .text-img-container {
+
+            .container-text {
+                margin-bottom: 100px;
+                max-width: 100%;
+
+                &:nth-of-type(odd) {
+                    padding-right: 5%;
+                }
+
+                h3 {
+                    font-weight: 700;
+                }
+                
+                p {
+                    font-size: 1.5em;
+                    
+                }
+
+                a {
+                    color: $button-color;
+                    font-size: 1.5em;
+                }
+
+                img {
+                    width: 90px;
+                    height: 90px;
+                    margin-right: 25px;
+                }
+
+            }
+        }
+    }
+}
 
 
 }
