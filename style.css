@@ -97,64 +97,6 @@ button {
   transition: transform 0.3s;
 }
 
-/**** SECTION HOW CAN HELP ? ***********/
-.section-help {
-  background-color: #dadbf1;
-  height: auto;
-  padding: 115px 15px;
-  line-height: 28px;
-  letter-spacing: -4px;
-}
-
-.section-h2 {
-  font-weight: 500;
-  font-size: 5em;
-  padding-bottom: 40px;
-}
-
-.arrow-position {
-  position: relative;
-  flex-direction: column;
-  width: 50%;
-}
-
-.section-input {
-  position: relative;
-  z-index: 3;
-  padding: 1em 1em;
-  height: auto;
-  border: 1px solid #000;
-  border-radius: 10px;
-  font-size: 1.5em;
-  color: #000 !important;
-  outline: none;
-}
-.section-input:focus {
-  border: 1px solid blue;
-}
-.section-input::-moz-placeholder {
-  color: #000;
-  opacity: 1;
-}
-.section-input:-ms-input-placeholder {
-  color: #000;
-  opacity: 1;
-}
-.section-input::placeholder {
-  color: #000;
-  opacity: 1;
-}
-
-.bx-right-arrow-alt {
-  position: absolute;
-  right: 20px;
-  bottom: 10px;
-  z-index: 100;
-  font-size: 55px;
-  font-weight: 100 !important;
-  border: 1px solid #fff;
-}
-
 @media (max-width: 1200px) {
   /****** HEADER ***********/
   header {
@@ -236,56 +178,6 @@ button {
     transform: scale(1.2);
     transition: transform 0.3s;
   }
-  /**** SECTION HOW CAN HELP ? ***********/
-  .section-help {
-    background-color: #dadbf1;
-    height: auto;
-    padding: 115px 15px;
-    line-height: 28px;
-    letter-spacing: -4px;
-  }
-  .arrow-position {
-    max-width: 70%;
-  }
-  .section-h2 {
-    font-weight: 600;
-    font-size: 3em;
-    padding-bottom: 50px;
-  }
-  .section-input {
-    position: relative;
-    padding: 1em 1em;
-    height: auto;
-    border: 1px solid #000;
-    border-radius: 10px;
-    font-size: 1.5em;
-    color: #000 !important;
-    outline: none;
-  }
-  .section-input:focus {
-    border: 1px solid blue;
-  }
-  .section-input::-moz-placeholder {
-    color: #000;
-    opacity: 1;
-  }
-  .section-input:-ms-input-placeholder {
-    color: #000;
-    opacity: 1;
-  }
-  .section-input::placeholder {
-    color: #000;
-    opacity: 1;
-  }
-  .bx-right-arrow-alt {
-    position: absolute;
-    right: 20px;
-    bottom: 10px;
-    z-index: 100;
-    font-size: 55px;
-    font-weight: 100 !important;
-    border: 1px solid #fff;
-  }
 }
 @media (max-width: 992px) {
   /****** HEADER ***********/
@@ -363,57 +255,6 @@ button {
   .bx-search-alt:hover {
     transform: scale(1.2);
     transition: transform 0.3s;
-  }
-  /**** SECTION HOW CAN HELP ? ***********/
-  .section-help {
-    background-color: #dadbf1;
-    height: auto;
-    padding: 115px 15px;
-    line-height: 28px;
-    letter-spacing: -4px;
-  }
-  .section-h2 {
-    font-weight: 600;
-    font-size: 3em;
-    padding-bottom: 50px;
-  }
-  .arrow-position {
-    max-width: 90%;
-  }
-  .section-input {
-    position: relative;
-    padding: 1em 1em;
-    height: auto;
-    border: 1px solid #000;
-    border-radius: 10px;
-    font-size: 1.5em;
-    color: #000 !important;
-    outline: none;
-  }
-  .section-input:focus {
-    border: 1px solid blue;
-  }
-  .section-input::-moz-placeholder {
-    color: #000;
-    opacity: 1;
-  }
-  .section-input:-ms-input-placeholder {
-    color: #000;
-    opacity: 1;
-  }
-  .section-input::placeholder {
-    color: #000;
-    opacity: 1;
-  }
-  .bx-right-arrow-alt {
-    position: absolute;
-    right: 20px;
-    bottom: 10px;
-    z-index: 100;
-    font-size: 55px;
-    font-weight: 100 !important;
-    border: 1px solid #fff;
-    border: none;
   }
 }
 @media (max-width: 768px) {
@@ -493,57 +334,6 @@ button {
     transform: scale(1.2);
     transition: transform 0.3s;
   }
-  /**** SECTION HOW CAN HELP ? ***********/
-  .section-help {
-    background-color: #dadbf1;
-    height: auto;
-    padding: 115px 15px;
-    line-height: 28px;
-    letter-spacing: -4px;
-  }
-  .section-h2 {
-    font-weight: 600;
-    font-size: 5em;
-    padding-bottom: 50px;
-  }
-  .arrow-position {
-    max-width: 100%;
-  }
-  .section-input {
-    position: relative;
-    padding: 1em 1em;
-    height: auto;
-    border: 1px solid #000;
-    border-radius: 10px;
-    font-size: 1.5em;
-    color: #000 !important;
-    outline: none;
-  }
-  .section-input:focus {
-    border: 1px solid blue;
-  }
-  .section-input::-moz-placeholder {
-    color: #000;
-    opacity: 1;
-  }
-  .section-input:-ms-input-placeholder {
-    color: #000;
-    opacity: 1;
-  }
-  .section-input::placeholder {
-    color: #000;
-    opacity: 1;
-  }
-  .bx-right-arrow-alt {
-    position: absolute;
-    right: 20px;
-    bottom: 10px;
-    z-index: 100;
-    font-size: 55px;
-    font-weight: 100 !important;
-    border: 1px solid #fff;
-    border: none;
-  }
 }
 @media (max-width: 576px) {
   /****** HEADER ***********/
@@ -620,51 +410,5 @@ button {
   .bx-search-alt:hover {
     transform: scale(1.2);
     transition: transform 0.3s;
-  }
-  /**** SECTION HOW CAN HELP ? ***********/
-  .section-help {
-    background-color: #dadbf1;
-    height: auto;
-    padding: 115px 15px;
-    line-height: 28px;
-    letter-spacing: -4px;
-  }
-  .section-h2 {
-    font-size: 3.5em;
-  }
-  .section-input {
-    position: relative;
-    padding: 1em 1em;
-    height: auto;
-    border: 1px solid #000;
-    border-radius: 10px;
-    font-size: 1.5em;
-    color: #000 !important;
-    outline: none;
-  }
-  .section-input:focus {
-    border: 1px solid blue;
-  }
-  .section-input::-moz-placeholder {
-    color: #000;
-    opacity: 1;
-  }
-  .section-input:-ms-input-placeholder {
-    color: #000;
-    opacity: 1;
-  }
-  .section-input::placeholder {
-    color: #000;
-    opacity: 1;
-  }
-  .bx-right-arrow-alt {
-    position: absolute;
-    right: 20px;
-    bottom: 10px;
-    z-index: 100;
-    font-size: 55px;
-    font-weight: 100 !important;
-    border: 1px solid #fff;
-    border: none;
   }
 }/*# sourceMappingURL=style.css.map */

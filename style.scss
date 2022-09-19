@@ -114,64 +114,6 @@ button {
 }
 
 
-/**** SECTION HOW CAN HELP ? ***********/
-
-.section-help {
-    background-color: $headerColor;
-    height: auto;
-    padding: 115px 15px;
-    line-height: 28px;
-    letter-spacing: -4px;
-}
-
-.section-h2 {
-    font-weight: 500;
-    font-size: 5em;
-    padding-bottom: 40px;
-}
-
-.arrow-position {
-    position: relative;
-    flex-direction: column;
-    width: 50%;
-}
-
-.section-input {
-   position: relative;
-   z-index: 3;
-   padding: 1em 1em;
-   height: auto;
-   border: 1px solid $second-color;
-   border-radius: 10px;
-
-   font-size: 1.5em;
-   color: #000 !important;
-
-   outline: none;
-
-    &:focus {
-     border: 1px solid blue;
-
-    }
-
-    &::placeholder {
-        color: $second-color;
-        opacity: 1;
-    }
-}
-
-.bx-right-arrow-alt {
-    position: absolute;
-    right: 20px;
-    bottom: 10px;
-    z-index: 100;
-    font-size: 55px;
-    font-weight: 100 !important;
-    border: 1px solid $main-color;
-
-}
-
-
 
 @media (max-width: 1200px){
 
@@ -285,64 +227,7 @@ button {
     }
 
 
-    /**** SECTION HOW CAN HELP ? ***********/
-
-    .section-help {
-        background-color: $headerColor;
-        height: auto;
-        padding: 115px 15px;
-        line-height: 28px;
-        letter-spacing: -4px;
-    }
-
-    .arrow-position {
-        max-width: 70%;
-    }
-
-    .section-h2 {
-        font-weight: 600;
-        font-size: 3em;
-        padding-bottom: 50px;
-    }
-
-    .section-input {
-       position: relative;
-       padding: 1em 1em;
-       height: auto;
-       border: 1px solid $second-color;
-       border-radius: 10px;
-
-       font-size: 1.5em;
-       color: #000 !important;
-
-       outline: none;
-
-        &:focus {
-         border: 1px solid blue;
-
-        }
-
-        &::placeholder {
-            color: $second-color;
-            opacity: 1;
-        }
-    }
-
-
-    .bx-right-arrow-alt {
-        position: absolute;
-        right: 20px;
-        bottom: 10px;
-        z-index: 100;
-        font-size: 55px;
-        font-weight: 100 !important;
-        border: 1px solid $main-color;
-    
-    }
-    
-
 }
-
 
 
 @media (max-width: 992px){
@@ -452,60 +337,7 @@ button {
     }
 
 
-    /**** SECTION HOW CAN HELP ? ***********/
 
-    .section-help {
-        background-color: $headerColor;
-        height: auto;
-        padding: 115px 15px;
-        line-height: 28px;
-        letter-spacing: -4px;
-    }
-
-    .section-h2 {
-        font-weight: 600;
-        font-size: 3em;
-        padding-bottom: 50px;
-    }
-
-    .arrow-position {
-        max-width: 90%;
-    }
-
-    .section-input {
-       position: relative;
-       padding: 1em 1em;
-       height: auto;
-       border: 1px solid $second-color;
-       border-radius: 10px;
-
-       font-size: 1.5em;
-       color: #000 !important;
-
-       outline: none;
-
-        &:focus {
-         border: 1px solid blue;
-
-        }
-
-        &::placeholder {
-            color: $second-color;
-            opacity: 1;
-        }
-    }
-
-    .bx-right-arrow-alt {
-        position: absolute;
-        right: 20px;
-        bottom: 10px;
-        z-index: 100;
-        font-size: 55px;
-        font-weight: 100 !important;
-        border: 1px solid $main-color;
-        border: none;
-    
-    }
 
 }
 
@@ -618,61 +450,6 @@ button {
     }
 
 
-    /**** SECTION HOW CAN HELP ? ***********/
-
-    .section-help {
-        background-color: $headerColor;
-        height: auto;
-        padding: 115px 15px;
-        line-height: 28px;
-        letter-spacing: -4px;
-    }
-
-    .section-h2 {
-        font-weight: 600;
-        font-size: 5em;
-        padding-bottom: 50px;
-    }
-
-    .arrow-position {
-        max-width: 100%;
-    }
-    .section-input {
-       position: relative;
-       padding: 1em 1em;
-       height: auto;
-       border: 1px solid $second-color;
-       border-radius: 10px;
-
-       font-size: 1.5em;
-       color: #000 !important;
-
-       outline: none;
-
-        &:focus {
-         border: 1px solid blue;
-
-        }
-
-        &::placeholder {
-            color: $second-color;
-            opacity: 1;
-        }
-    }
-
-
-    .bx-right-arrow-alt {
-        position: absolute;
-        right: 20px;
-        bottom: 10px;
-        z-index: 100;
-        font-size: 55px;
-        font-weight: 100 !important;
-        border: 1px solid $main-color;
-        border: none;
-    
-    }
-
 }
 
 
@@ -781,54 +558,5 @@ button {
     }
 
 
-    /**** SECTION HOW CAN HELP ? ***********/
-
-    .section-help {
-        background-color: $headerColor;
-        height: auto;
-        padding: 115px 15px;
-        line-height: 28px;
-        letter-spacing: -4px;
-    }
-
-    .section-h2 {
-        font-size: 3.5em;
-    }
-
-    .section-input {
-       position: relative;
-       padding: 1em 1em;
-       height: auto;
-       border: 1px solid $second-color;
-       border-radius: 10px;
-
-       font-size: 1.5em;
-       color: #000 !important;
-
-       outline: none;
-
-        &:focus {
-         border: 1px solid blue;
-
-        }
-
-        &::placeholder {
-            color: $second-color;
-            opacity: 1;
-        }
-    }
-
-
-    .bx-right-arrow-alt {
-        position: absolute;
-        right: 20px;
-        bottom: 10px;
-        z-index: 100;
-        font-size: 55px;
-        font-weight: 100 !important;
-        border: 1px solid $main-color;
-        border: none;
-    
-    }
 
 }
