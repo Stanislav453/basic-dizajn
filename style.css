@@ -102,16 +102,18 @@ section {
   padding: 100px 15px;
 }
 section .container {
+  width: 50%;
   position: relative;
 }
 section .container h2 {
-  font-weight: 500;
-  font-size: 2.5em;
+  font-weight: 600;
+  font-size: 5em;
   letter-spacing: -3px;
 }
 section .container input {
-  padding: 10px 15px;
+  padding: 20px 15px;
   border-radius: 5px;
+  font-size: 1.3em;
   outline: none;
   border: none;
 }
@@ -127,7 +129,7 @@ section .container input::placeholder {
 section .container .bx-right-arrow-alt {
   position: absolute;
   right: 30px;
-  bottom: 5px;
+  bottom: 17px;
   font-size: 2em;
 }
 
@@ -212,21 +214,24 @@ section .container .bx-right-arrow-alt {
     transform: scale(1.2);
     transition: transform 0.3s;
   }
+  /** Section ****************************/
   section {
     background-color: #DADBF1;
     padding: 100px 15px;
   }
   section .container {
+    width: 70%;
     position: relative;
   }
   section .container h2 {
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 4em;
     letter-spacing: -3px;
   }
   section .container input {
-    padding: 10px 15px;
+    padding: 20px 15px;
     border-radius: 5px;
+    font-size: 1.3em;
     outline: none;
     border: none;
   }
@@ -242,7 +247,7 @@ section .container .bx-right-arrow-alt {
   section .container .bx-right-arrow-alt {
     position: absolute;
     right: 30px;
-    bottom: 5px;
+    bottom: 17px;
     font-size: 2em;
   }
 }
@@ -323,6 +328,7 @@ section .container .bx-right-arrow-alt {
     transform: scale(1.2);
     transition: transform 0.3s;
   }
+  /** Section ************************************************/
   section {
     background-color: #DADBF1;
     padding: 100px 15px;
@@ -332,12 +338,13 @@ section .container .bx-right-arrow-alt {
   }
   section .container h2 {
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 4em;
     letter-spacing: -3px;
   }
   section .container input {
-    padding: 10px 15px;
+    padding: 20px 15px;
     border-radius: 5px;
+    font-size: 1.3em;
     outline: none;
     border: none;
   }
@@ -353,7 +360,7 @@ section .container .bx-right-arrow-alt {
   section .container .bx-right-arrow-alt {
     position: absolute;
     right: 30px;
-    bottom: 5px;
+    bottom: 17px;
     font-size: 2em;
   }
 }
@@ -434,21 +441,24 @@ section .container .bx-right-arrow-alt {
     transform: scale(1.2);
     transition: transform 0.3s;
   }
+  /* Section ********/
   section {
     background-color: #DADBF1;
     padding: 100px 15px;
   }
   section .container {
+    width: 80%;
     position: relative;
   }
   section .container h2 {
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 3em;
     letter-spacing: -3px;
   }
   section .container input {
-    padding: 10px 15px;
+    padding: 20px 15px;
     border-radius: 5px;
+    font-size: 1.3em;
     outline: none;
     border: none;
   }
@@ -464,7 +474,7 @@ section .container .bx-right-arrow-alt {
   section .container .bx-right-arrow-alt {
     position: absolute;
     right: 30px;
-    bottom: 5px;
+    bottom: 17px;
     font-size: 2em;
   }
 }
@@ -550,6 +560,7 @@ section .container .bx-right-arrow-alt {
     padding: 100px 15px;
   }
   section .container {
+    width: 100%;
     position: relative;
   }
   section .container h2 {

@@ -118,17 +118,19 @@ section {
     padding: 100px 15px;
 
     .container {
+        width: 50%;
         position: relative;
         
         h2 {
-           font-weight: 500;
-           font-size: 2.5em;
+           font-weight: 600;
+           font-size: 5em;
            letter-spacing: -3px;
         }
 
         input {
-            padding: 10px 15px;
+            padding: 20px 15px;
             border-radius: 5px;
+            font-size: 1.3em;
             outline: none;
             border: none;
 
@@ -140,7 +142,7 @@ section {
         .bx-right-arrow-alt {
             position: absolute;
             right: 30px;
-            bottom: 5px;
+            bottom: 17px;
             font-size: 2em;
         }
 
@@ -261,34 +263,38 @@ section {
             }
     }
 
+    /** Section ****************************/
+
     section {
         background-color: $section-background;
         padding: 100px 15px;
 
         .container {
+            width: 70%;
             position: relative;
             
             h2 {
                font-weight: 500;
-               font-size: 2.5em;
+               font-size: 4em;
                letter-spacing: -3px;
             }
 
             input {
-                padding: 10px 15px;
+                padding: 20px 15px;
                 border-radius: 5px;
+                font-size: 1.3em;
                 outline: none;
                 border: none;
-
+    
                 &::placeholder {
                     opacity: 1;
                 }
             }
-
+    
             .bx-right-arrow-alt {
                 position: absolute;
                 right: 30px;
-                bottom: 5px;
+                bottom: 17px;
                 font-size: 2em;
             }
 
@@ -405,6 +411,8 @@ section {
             }
     }
 
+    /** Section ************************************************/
+
     section {
         background-color: $section-background;
         padding: 100px 15px;
@@ -414,25 +422,26 @@ section {
             
             h2 {
                font-weight: 500;
-               font-size: 2.5em;
+               font-size: 4em;
                letter-spacing: -3px;
             }
 
             input {
-                padding: 10px 15px;
+                padding: 20px 15px;
                 border-radius: 5px;
+                font-size: 1.3em;
                 outline: none;
                 border: none;
-
+    
                 &::placeholder {
                     opacity: 1;
                 }
             }
-
+    
             .bx-right-arrow-alt {
                 position: absolute;
                 right: 30px;
-                bottom: 5px;
+                bottom: 17px;
                 font-size: 2em;
             }
 
@@ -551,38 +560,40 @@ section {
             }
     }
 
+    /* Section ********/
 
     section {
         background-color: $section-background;
         padding: 100px 15px;
 
         .container {
+            width: 80%;
             position: relative;
             
             h2 {
                font-weight: 500;
-               font-size: 2.5em;
+               font-size: 3em;
                letter-spacing: -3px;
             }
 
             input {
-                padding: 10px 15px;
+                padding: 20px 15px;
                 border-radius: 5px;
+                font-size: 1.3em;
                 outline: none;
                 border: none;
-
+    
                 &::placeholder {
                     opacity: 1;
                 }
             }
-
+    
             .bx-right-arrow-alt {
                 position: absolute;
                 right: 30px;
-                bottom: 5px;
+                bottom: 17px;
                 font-size: 2em;
             }
-
         }
     }
 
@@ -702,6 +713,7 @@ section {
         padding: 100px 15px;
 
         .container {
+            width: 100%;
             position: relative;
             
             h2 {
