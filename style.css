@@ -97,6 +97,40 @@ button {
   transition: transform 0.3s;
 }
 
+section {
+  background-color: #DADBF1;
+  padding: 100px 15px;
+}
+section .container {
+  position: relative;
+}
+section .container h2 {
+  font-weight: 500;
+  font-size: 2.5em;
+  letter-spacing: -3px;
+}
+section .container input {
+  padding: 10px 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+section .container input::-moz-placeholder {
+  opacity: 1;
+}
+section .container input:-ms-input-placeholder {
+  opacity: 1;
+}
+section .container input::placeholder {
+  opacity: 1;
+}
+section .container .bx-right-arrow-alt {
+  position: absolute;
+  right: 30px;
+  bottom: 5px;
+  font-size: 2em;
+}
+
 @media (max-width: 1200px) {
   /****** HEADER ***********/
   header {
@@ -178,6 +212,39 @@ button {
     transform: scale(1.2);
     transition: transform 0.3s;
   }
+  section {
+    background-color: #DADBF1;
+    padding: 100px 15px;
+  }
+  section .container {
+    position: relative;
+  }
+  section .container h2 {
+    font-weight: 500;
+    font-size: 2.5em;
+    letter-spacing: -3px;
+  }
+  section .container input {
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+  section .container input::-moz-placeholder {
+    opacity: 1;
+  }
+  section .container input:-ms-input-placeholder {
+    opacity: 1;
+  }
+  section .container input::placeholder {
+    opacity: 1;
+  }
+  section .container .bx-right-arrow-alt {
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+    font-size: 2em;
+  }
 }
 @media (max-width: 992px) {
   /****** HEADER ***********/
@@ -255,6 +322,39 @@ button {
   .bx-search-alt:hover {
     transform: scale(1.2);
     transition: transform 0.3s;
+  }
+  section {
+    background-color: #DADBF1;
+    padding: 100px 15px;
+  }
+  section .container {
+    position: relative;
+  }
+  section .container h2 {
+    font-weight: 500;
+    font-size: 2.5em;
+    letter-spacing: -3px;
+  }
+  section .container input {
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+  section .container input::-moz-placeholder {
+    opacity: 1;
+  }
+  section .container input:-ms-input-placeholder {
+    opacity: 1;
+  }
+  section .container input::placeholder {
+    opacity: 1;
+  }
+  section .container .bx-right-arrow-alt {
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+    font-size: 2em;
   }
 }
 @media (max-width: 768px) {
@@ -334,6 +434,39 @@ button {
     transform: scale(1.2);
     transition: transform 0.3s;
   }
+  section {
+    background-color: #DADBF1;
+    padding: 100px 15px;
+  }
+  section .container {
+    position: relative;
+  }
+  section .container h2 {
+    font-weight: 500;
+    font-size: 2.5em;
+    letter-spacing: -3px;
+  }
+  section .container input {
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+  section .container input::-moz-placeholder {
+    opacity: 1;
+  }
+  section .container input:-ms-input-placeholder {
+    opacity: 1;
+  }
+  section .container input::placeholder {
+    opacity: 1;
+  }
+  section .container .bx-right-arrow-alt {
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+    font-size: 2em;
+  }
 }
 @media (max-width: 576px) {
   /****** HEADER ***********/
@@ -410,5 +543,39 @@ button {
   .bx-search-alt:hover {
     transform: scale(1.2);
     transition: transform 0.3s;
+  }
+  /**** SECTION ******************************/
+  section {
+    background-color: #DADBF1;
+    padding: 100px 15px;
+  }
+  section .container {
+    position: relative;
+  }
+  section .container h2 {
+    font-weight: 500;
+    font-size: 2.5em;
+    letter-spacing: -3px;
+  }
+  section .container input {
+    padding: 10px 15px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+  }
+  section .container input::-moz-placeholder {
+    opacity: 1;
+  }
+  section .container input:-ms-input-placeholder {
+    opacity: 1;
+  }
+  section .container input::placeholder {
+    opacity: 1;
+  }
+  section .container .bx-right-arrow-alt {
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+    font-size: 2em;
   }
 }/*# sourceMappingURL=style.css.map */
