@@ -6,7 +6,7 @@ header {
 }
 
 .main-header {
-  padding: 25px 90px;
+  padding: 15px 90px;
   line-height: 28px;
 }
 
@@ -16,13 +16,13 @@ header {
 
 .top-bar-logo ul li a {
   color: #fff;
-  font-size: 2em;
+  font-size: 1.7em;
   font-weight: 400;
   text-decoration: none;
 }
 
 .bxl-sketch {
-  font-size: 3em;
+  font-size: 2.3em;
   color: #fff;
 }
 
@@ -51,8 +51,8 @@ header {
 
 button {
   border: 1px solid #fff;
-  padding: 18px 30px;
-  font-size: 2em !important;
+  padding: 11px 25px;
+  font-size: 1.5em !important;
   background-color: black;
   color: #fff;
   cursor: pointer;
@@ -137,7 +137,7 @@ button {
 
 .bx-right-arrow-alt {
   position: absolute;
-  right: 28px;
+  right: 550px;
   bottom: 126px;
   font-size: 55px;
   font-weight: 100 !important;
