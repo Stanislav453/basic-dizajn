@@ -208,6 +208,16 @@ button {
     font-size: 1.2em !important;
     cursor: pointer;
   }
+  .button-bar-right {
+    background-color: black;
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+    transition: color, background-color 0.5s;
+  }
+  .button-bar-right:hover {
+    background-color: #000;
+  }
   .text-button {
     display: none;
   }
@@ -235,7 +245,7 @@ button {
     letter-spacing: -4px;
   }
   .arrow-position {
-    max-width: 60%;
+    max-width: 70%;
   }
   .section-h2 {
     font-weight: 600;
@@ -329,6 +339,16 @@ button {
     background-color: black;
     cursor: pointer;
   }
+  .button-bar-right {
+    background-color: black;
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+    transition: color, background-color 0.5s;
+  }
+  .button-bar-right:hover {
+    background-color: #000;
+  }
   .bx-search-alt, .bx-menu {
     color: #fff;
     font-size: 3em;
@@ -356,6 +376,9 @@ button {
     font-weight: 600;
     font-size: 3em;
     padding-bottom: 50px;
+  }
+  .arrow-position {
+    max-width: 90%;
   }
   .section-input {
     position: relative;
@@ -445,6 +468,16 @@ button {
     background-color: black;
     cursor: pointer;
   }
+  .button-bar-right {
+    background-color: black;
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+    transition: color, background-color 0.5s;
+  }
+  .button-bar-right:hover {
+    background-color: #000;
+  }
   .bx-search-alt, .bx-menu {
     color: #fff;
     font-size: 3em;
@@ -472,6 +505,9 @@ button {
     font-weight: 600;
     font-size: 5em;
     padding-bottom: 50px;
+  }
+  .arrow-position {
+    max-width: 100%;
   }
   .section-input {
     position: relative;
@@ -559,6 +595,16 @@ button {
     font-size: 0.8em !important;
     padding: 5px 5px;
     cursor: pointer;
+  }
+  .button-bar-right {
+    background-color: black;
+    color: #fff;
+    border: none;
+    margin-left: 5px;
+    transition: color, background-color 0.5s;
+  }
+  .button-bar-right:hover {
+    background-color: #000;
   }
   .bx-search-alt, .bx-menu {
     color: #fff;

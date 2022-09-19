@@ -247,6 +247,19 @@ button {
         cursor: pointer;
     }
 
+    
+    .button-bar-right {
+        background-color: black;
+        color: #fff;
+        border: none;
+        margin-left: 5px;
+        transition: color, background-color 0.5s;
+
+        &:hover {
+            background-color: #000;
+        }
+    }
+
     .text-button {
         display: none;
     }
@@ -283,7 +296,7 @@ button {
     }
 
     .arrow-position {
-        max-width: 60%;
+        max-width: 70%;
     }
 
     .section-h2 {
@@ -405,6 +418,19 @@ button {
         cursor: pointer;
     }
 
+    
+    .button-bar-right {
+        background-color: black;
+        color: #fff;
+        border: none;
+        margin-left: 5px;
+        transition: color, background-color 0.5s;
+
+        &:hover {
+            background-color: #000;
+        }
+    }
+
     .bx-search-alt, .bx-menu  {
         color: $main-color;
         font-size: 3em;
@@ -440,6 +466,10 @@ button {
         font-weight: 600;
         font-size: 3em;
         padding-bottom: 50px;
+    }
+
+    .arrow-position {
+        max-width: 90%;
     }
 
     .section-input {
@@ -554,6 +584,19 @@ button {
         cursor: pointer;
     }
 
+    
+    .button-bar-right {
+        background-color: black;
+        color: #fff;
+        border: none;
+        margin-left: 5px;
+        transition: color, background-color 0.5s;
+
+        &:hover {
+            background-color: #000;
+        }
+    }
+
     .bx-search-alt, .bx-menu  {
         color: $main-color;
         font-size: 3em;
@@ -591,6 +634,9 @@ button {
         padding-bottom: 50px;
     }
 
+    .arrow-position {
+        max-width: 100%;
+    }
     .section-input {
        position: relative;
        padding: 1em 1em;
@@ -700,6 +746,18 @@ button {
         font-size: .8em !important;
         padding: 5px 5px;
         cursor: pointer;
+    }
+
+    .button-bar-right {
+        background-color: black;
+        color: #fff;
+        border: none;
+        margin-left: 5px;
+        transition: color, background-color 0.5s;
+
+        &:hover {
+            background-color: #000;
+        }
     }
 
     .bx-search-alt, .bx-menu  {
