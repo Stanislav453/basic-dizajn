@@ -1,5 +1,9 @@
 @import "scss/variables";
 
+.col-12 {
+    flex: 0 0 30%!important;
+}
+
    /****** HEADER ***********/
 
    header {
@@ -113,7 +117,6 @@ button {
 /**** SECTION HOW CAN HELP ? ***********/
 
 .section-help {
-    flex-direction: column;
     background-color: $headerColor;
     height: auto;
     padding: 115px 15px;
@@ -123,12 +126,19 @@ button {
 
 .section-h2 {
     font-weight: 500;
-    font-size: 6em;
-    padding-bottom: 50px;
+    font-size: 5em;
+    padding-bottom: 40px;
+}
+
+.arrow-position {
+    position: relative;
+    flex-direction: column;
+    width: 50%;
 }
 
 .section-input {
    position: relative;
+   z-index: 3;
    padding: 1em 1em;
    height: auto;
    border: 1px solid $second-color;
@@ -152,8 +162,9 @@ button {
 
 .bx-right-arrow-alt {
     position: absolute;
-    right: 550px;
-    bottom: 126px;
+    right: 20px;
+    bottom: 10px;
+    z-index: 100;
     font-size: 55px;
     font-weight: 100 !important;
     border: 1px solid $main-color;
@@ -264,12 +275,15 @@ button {
     /**** SECTION HOW CAN HELP ? ***********/
 
     .section-help {
-        flex-direction: column;
         background-color: $headerColor;
         height: auto;
         padding: 115px 15px;
         line-height: 28px;
         letter-spacing: -4px;
+    }
+
+    .arrow-position {
+        max-width: 60%;
     }
 
     .section-h2 {
@@ -301,15 +315,18 @@ button {
         }
     }
 
+
     .bx-right-arrow-alt {
         position: absolute;
-        right: 28px;
-        bottom: 126px;
+        right: 20px;
+        bottom: 10px;
+        z-index: 100;
         font-size: 55px;
         font-weight: 100 !important;
         border: 1px solid $main-color;
-
+    
     }
+    
 
 }
 
@@ -412,7 +429,6 @@ button {
     /**** SECTION HOW CAN HELP ? ***********/
 
     .section-help {
-        flex-direction: column;
         background-color: $headerColor;
         height: auto;
         padding: 115px 15px;
@@ -451,12 +467,14 @@ button {
 
     .bx-right-arrow-alt {
         position: absolute;
-        right: 28px;
-        bottom: 126px;
+        right: 20px;
+        bottom: 10px;
+        z-index: 100;
         font-size: 55px;
         font-weight: 100 !important;
         border: 1px solid $main-color;
-
+        border: none;
+    
     }
 
 }
@@ -560,7 +578,6 @@ button {
     /**** SECTION HOW CAN HELP ? ***********/
 
     .section-help {
-        flex-direction: column;
         background-color: $headerColor;
         height: auto;
         padding: 115px 15px;
@@ -597,14 +614,17 @@ button {
         }
     }
 
+
     .bx-right-arrow-alt {
         position: absolute;
-        right: 28px;
-        bottom: 126px;
+        right: 20px;
+        bottom: 10px;
+        z-index: 100;
         font-size: 55px;
         font-weight: 100 !important;
         border: 1px solid $main-color;
-
+        border: none;
+    
     }
 
 }
@@ -706,7 +726,6 @@ button {
     /**** SECTION HOW CAN HELP ? ***********/
 
     .section-help {
-        flex-direction: column;
         background-color: $headerColor;
         height: auto;
         padding: 115px 15px;
@@ -741,14 +760,17 @@ button {
         }
     }
 
+
     .bx-right-arrow-alt {
         position: absolute;
-        right: 28px;
-        bottom: 126px;
+        right: 20px;
+        bottom: 10px;
+        z-index: 100;
         font-size: 55px;
         font-weight: 100 !important;
         border: 1px solid $main-color;
-
+        border: none;
+    
     }
 
 }
