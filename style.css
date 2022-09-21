@@ -159,9 +159,33 @@ section .container .bx-right-arrow-alt {
 
 /** FOOTER ********************/
 footer {
-  padding: 50px;
+  padding-bottom: 60px;
   color: #fff;
   background-color: #000;
+}
+footer .footer-container .footer-text ul {
+  padding: 0;
+}
+footer .footer-container .footer-text ul li {
+  list-style-type: none;
+}
+footer .footer-container .footer-text ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .footer-container .footer-text ul li a:hover {
+  border-bottom: 1px solid #fff;
+}
+footer .footer-container .footer-undeground {
+  padding-top: 190px;
+}
+footer .footer-container .footer-undeground .bxl-sketch {
+  padding-bottom: 20px;
+}
+footer .footer-container .footer-undeground p {
+  font-size: 1.2em;
+  font-weight: 600;
+  line-height: 10px;
 }
 
 @media (max-width: 1200px) {
@@ -697,5 +721,14 @@ footer {
     width: 70px;
     height: 70px;
     margin-right: 25px;
+  }
+  /** FOOTER ********************/
+  footer {
+    padding-bottom: 60px;
+    color: #fff;
+    background-color: #000;
+  }
+  footer .footer-container .footer-undeground {
+    padding-top: 0;
   }
 }/*# sourceMappingURL=style.css.map */

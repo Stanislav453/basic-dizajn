@@ -193,10 +193,50 @@ section {
 /** FOOTER ********************/
 
 footer {
-    padding: 50px;
+    padding-bottom: 60px;
     color: $main-color;
     background-color: $second-color;
+
+    .footer-container {
+
+        .footer-text {
+
+            ul {
+                padding: 0;
+
+                li {
+                    list-style-type: none;
+
+                    a {
+                        color: $main-color;
+                        text-decoration: none;
+
+                        &:hover {
+                            border-bottom: 1px solid $main-color;
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-undeground {
+            padding-top: 190px;
+
+            .bxl-sketch {
+                padding-bottom: 20px;
+            }
+
+            p {
+                font-size: 1.2em;
+                font-weight: 600;
+                line-height: 10px;
+            }
+        }
+
+    }
+
 }
+
 
 
 
@@ -914,6 +954,24 @@ footer {
             }
         }
     }
+}
+
+/** FOOTER ********************/
+
+footer {
+    padding-bottom: 60px;
+    color: $main-color;
+    background-color: $second-color;
+
+    .footer-container {
+
+
+        .footer-undeground {
+            padding-top: 0;
+        }
+
+    }
+
 }
 
 
