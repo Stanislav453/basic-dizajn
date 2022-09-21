@@ -157,6 +157,13 @@ section .container .bx-right-arrow-alt {
   margin-right: 25px;
 }
 
+/** FOOTER ********************/
+footer {
+  padding: 50px;
+  color: #fff;
+  background-color: #000;
+}
+
 @media (max-width: 1200px) {
   /****** HEADER ***********/
   header {

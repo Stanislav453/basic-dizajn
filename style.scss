@@ -190,6 +190,14 @@ section {
     }
 }
 
+/** FOOTER ********************/
+
+footer {
+    padding: 50px;
+    color: $main-color;
+    background-color: $second-color;
+}
+
 
 
 @media (max-width: 1200px){
