@@ -133,6 +133,23 @@ button {
     }
 }
 
+.header-input {
+    display: none;
+    font-size: 1.5em;
+    padding: 9px 25px;
+    border-radius: 15px;
+    margin-right: 20px;
+    border: none;
+
+    &::placeholder {
+        opacity: 1;
+    }
+
+    &:focus {
+        outline: none;
+    }
+}
+
 .bx-search-alt, .bx-menu  {
     color: $main-color;
     font-size: 3em;

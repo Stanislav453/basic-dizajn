@@ -120,6 +120,27 @@ button {
   transition: color, background-color 0.5s;
 }
 
+.header-input {
+  display: none;
+  font-size: 1.5em;
+  padding: 9px 25px;
+  border-radius: 15px;
+  margin-right: 20px;
+  border: none;
+}
+.header-input::-moz-placeholder {
+  opacity: 1;
+}
+.header-input:-ms-input-placeholder {
+  opacity: 1;
+}
+.header-input::placeholder {
+  opacity: 1;
+}
+.header-input:focus {
+  outline: none;
+}
+
 .bx-search-alt, .bx-menu {
   color: #fff;
   font-size: 3em;
