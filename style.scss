@@ -1,6 +1,7 @@
 @import "scss/variables";
 
 
+
    /****** HEADER ***********/
 
    .search-form {
@@ -168,6 +169,154 @@ button {
         transition: transform .3s;
         
         }
+}
+
+/*** FORM-BLOCK  *******************************************/
+
+.form-block {
+    display: none;
+    max-width: 750px;
+    height: 530px;
+    background-color: $main-color;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -375px;
+    border: 10px solid grey;
+    z-index: 100;
+
+    .x-button {
+        display: block;
+        width: 100%;
+        color: #000;
+        float: right;
+        margin-right: 20px;
+        margin-top: 2px;
+        text-decoration: none;
+        font-size: 1.5em;
+        font-weight: 600;
+        opacity: .5;
+        transition: opacity .3s;
+        text-align: right;
+
+
+
+        &:hover {
+            color: #000;
+            opacity: 1;
+            transition: opacity .3s;
+
+        }
+    }
+
+    h2 {
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 1.3em;
+    }
+
+    .liar {
+        width: 1px;
+        height: 190px;
+        background-color: #000;
+    }
+
+    .form-button-a {
+        font-size: 1em;
+        font-weight: 500;
+        padding: 10px 0;
+        display: block;
+        text-align: center;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        margin-right: 0;
+        color: #000;
+        text-decoration: none;
+        background-color: #fff;
+        transition: background-color .3s;
+
+        &:hover {
+            background-color: rgba($color: #000000, $alpha: .1);
+            transition: background-color .3s;
+        }
+
+    }
+
+    .bxl-google {
+        font-size: 2em;
+    }
+
+    input {
+        font-size: 1.3em;
+        border-radius: 5px;
+        border: 1px solid #000;
+
+        &:focus {
+            outline: 3px solid rgba(0,0,255, .3);
+        }
+    }
+
+    input[type="button"] {
+        color: $main-color;
+        font-size: 1em;
+        font-weight: 600;
+        background-color: #1f73b7;
+        padding: 9px 0;
+        border: none;
+        transition: background-color .3s;
+
+        &:hover {
+            background-color: darken($color: #1f73b7, $amount: 10);
+            transition: background-color .3s;
+        }
+    }
+
+    .form-text {
+        margin-top: 50px;
+        ul {
+            text-align: center;
+            padding: 0;
+            li {
+                list-style-type: none;
+                
+                &:nth-child(2){
+                    margin-top: 10px;
+                }
+
+                a {
+                    color: #144a75;
+                    text-decoration: none;
+
+                    &:hover {
+                        border-bottom: 1px solid #144a75;
+                    }
+                }
+            }
+        }
+    }
+
+    .form-footer {
+
+        ul {
+
+            li {
+                font-size: .9em;
+                list-style: none;
+                padding-bottom: 6px;
+
+                a {
+                    color: #144a75;
+                    text-decoration: none;
+
+                    &:hover {
+                        border-bottom: 1px solid #144a75;
+                    }
+                }
+            }
+
+        }
+    }
+
 }
 
 /**** SECTION **************************************/
